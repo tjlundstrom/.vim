@@ -13,3 +13,5 @@ Then execute the script
 ```bash
 ./install.sh
 ```
+As part of the script a symbolic link will be place in your home directory
+linked to the .vimrc in this project
