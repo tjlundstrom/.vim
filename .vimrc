@@ -2,7 +2,7 @@
 set nocompatible                        " Don't try to be vi compatible
 filetype off                            " Helps force plugins to load correctly when it is turned back on below
 set encoding=utf-8                      " Encoding
-set visualbell                          " Blink cursor on error instead of beeping (grr)
+set belloff=all                         " Blink cursor on error instead of beeping (grr)
 
 " Editor Related Settings
 syntax on                               " Turn on syntax highlighting
@@ -10,7 +10,7 @@ set number                              " Show line numbers
 
 " Standard Mappings
 let mapleader = ","                     " Pick a leader key
-inoremap jj <ESC>                       " Remap escape to jj for ease
+inoremap jj <ESC>
 
 " Whitespace
 set wrap
