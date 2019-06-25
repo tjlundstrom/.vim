@@ -13,7 +13,6 @@ let mapleader = ","                     " Pick a leader key
 inoremap jj <ESC>
 
 " Whitespace
-set wrap
 set textwidth=79
 set formatoptions=tcqrn1
 set tabstop=2
