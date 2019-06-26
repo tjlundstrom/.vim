@@ -43,6 +43,7 @@ call vundle#begin()                     " Start Vundle loading
 
 Plugin 'VundleVim/Vundle.vim'           " let Vundle manage Vundle, required
 Plugin 'dracula/vim'                    " install the dracula theme
+Plugin 'morhetz/gruvbox'
 
 call vundle#end()                       " Stop Vundle Loading
 filetype plugin indent on               " required for Vundle
@@ -52,4 +53,4 @@ set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-colorscheme dracula 
+colorscheme gruvbox 
