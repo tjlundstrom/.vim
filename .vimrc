@@ -44,13 +44,20 @@ call vundle#begin()                     " Start Vundle loading
 Plugin 'VundleVim/Vundle.vim'           " let Vundle manage Vundle, required
 Plugin 'dracula/vim'                    " install the dracula theme
 Plugin 'morhetz/gruvbox'
+Plugin 'pangloss/vim-javascript'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'MaxMEllon/vim-jsx-pretty'
+Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'ayu-theme/ayu-vim'
 
 call vundle#end()                       " Stop Vundle Loading
 filetype plugin indent on               " required for Vundle
 
+set termguicolors
 " Color scheme (terminal)
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-colorscheme gruvbox 
+let ayucolor="dark"
+colorscheme ayu 
